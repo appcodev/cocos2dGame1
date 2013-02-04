@@ -1,8 +1,8 @@
 //
 //  HelloWorldLayer.h
-//  Game1
+//  Game1-Menu
 //
-//  Created by Chalermchon Samana on 2/3/13.
+//  Created by Chalermchon Samana on 2/4/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 

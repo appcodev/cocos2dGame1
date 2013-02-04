@@ -1,15 +1,15 @@
 //
 //  IntroLayer.m
-//  Game1
+//  Game1-Menu
 //
-//  Created by Chalermchon Samana on 2/3/13.
+//  Created by Chalermchon Samana on 2/4/13.
 //  Copyright __MyCompanyName__ 2013. All rights reserved.
 //
 
 
 // Import the interfaces
 #import "IntroLayer.h"
-#import "MTMenuScene.h"
+#import "HelloWorldLayer.h"
 
 
 #pragma mark - IntroLayer
@@ -60,7 +60,6 @@
 
 -(void) makeTransition:(ccTime)dt
 {
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[MTMenuScene scene] withColor:ccWHITE]];
-    //with color is color when scene is transition ... แสดงตอนเปลี่ยน scene ให้ขึ้นสีตามที่ใส่ในพารามิเตอร์
+	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] withColor:ccWHITE]];
 }
 @end
