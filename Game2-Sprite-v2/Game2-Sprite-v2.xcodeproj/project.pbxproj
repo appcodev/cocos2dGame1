@@ -131,8 +131,12 @@
 		37B9E5F816C0B5D4005ABDC4 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E5F716C0B5D4005ABDC4 /* vec4.c */; };
 		37B9E5FD16C0B5D4005ABDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E5FC16C0B5D4005ABDC4 /* main.m */; };
 		37B9E60016C0B5D4005ABDC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E5FF16C0B5D4005ABDC4 /* AppDelegate.m */; };
-		37B9E60316C0B5D4005ABDC4 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E60216C0B5D4005ABDC4 /* HelloWorldLayer.m */; };
 		37B9E60616C0B5D4005ABDC4 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E60516C0B5D4005ABDC4 /* IntroLayer.m */; };
+		37B9E60E16C0B62B005ABDC4 /* GameTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E60D16C0B62B005ABDC4 /* GameTouch.m */; };
+		37B9E61116C0C11A005ABDC4 /* gv01_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37B9E60F16C0C11A005ABDC4 /* gv01_default.plist */; };
+		37B9E61216C0C11A005ABDC4 /* gv01_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B9E61016C0C11A005ABDC4 /* gv01_default.png */; };
+		37B9E61516C0C168005ABDC4 /* MyGV.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B9E61416C0C168005ABDC4 /* MyGV.m */; };
+		37B9E61716C0E25C005ABDC4 /* gTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B9E61616C0E25C005ABDC4 /* gTexture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -394,10 +398,15 @@
 		37B9E5FC16C0B5D4005ABDC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37B9E5FE16C0B5D4005ABDC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37B9E5FF16C0B5D4005ABDC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37B9E60116C0B5D4005ABDC4 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		37B9E60216C0B5D4005ABDC4 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		37B9E60416C0B5D4005ABDC4 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		37B9E60516C0B5D4005ABDC4 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		37B9E60C16C0B62B005ABDC4 /* GameTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTouch.h; sourceTree = "<group>"; };
+		37B9E60D16C0B62B005ABDC4 /* GameTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTouch.m; sourceTree = "<group>"; };
+		37B9E60F16C0C11A005ABDC4 /* gv01_default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gv01_default.plist; sourceTree = "<group>"; };
+		37B9E61016C0C11A005ABDC4 /* gv01_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gv01_default.png; sourceTree = "<group>"; };
+		37B9E61316C0C168005ABDC4 /* MyGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGV.h; sourceTree = "<group>"; };
+		37B9E61416C0C168005ABDC4 /* MyGV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGV.m; sourceTree = "<group>"; };
+		37B9E61616C0E25C005ABDC4 /* gTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gTexture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +467,12 @@
 			children = (
 				37B9E5FE16C0B5D4005ABDC4 /* AppDelegate.h */,
 				37B9E5FF16C0B5D4005ABDC4 /* AppDelegate.m */,
-				37B9E60116C0B5D4005ABDC4 /* HelloWorldLayer.h */,
-				37B9E60216C0B5D4005ABDC4 /* HelloWorldLayer.m */,
 				37B9E60416C0B5D4005ABDC4 /* IntroLayer.h */,
 				37B9E60516C0B5D4005ABDC4 /* IntroLayer.m */,
+				37B9E60C16C0B62B005ABDC4 /* GameTouch.h */,
+				37B9E60D16C0B62B005ABDC4 /* GameTouch.m */,
+				37B9E61316C0C168005ABDC4 /* MyGV.h */,
+				37B9E61416C0C168005ABDC4 /* MyGV.m */,
 				37B9E48716C0B5D1005ABDC4 /* Resources */,
 				37B9E4A116C0B5D1005ABDC4 /* libs */,
 				37B9E5FA16C0B5D4005ABDC4 /* Supporting Files */,
@@ -472,6 +483,9 @@
 		37B9E48716C0B5D1005ABDC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37B9E61616C0E25C005ABDC4 /* gTexture.png */,
+				37B9E60F16C0C11A005ABDC4 /* gv01_default.plist */,
+				37B9E61016C0C11A005ABDC4 /* gv01_default.png */,
 				37B9E48816C0B5D1005ABDC4 /* Default.png */,
 				37B9E48A16C0B5D1005ABDC4 /* Default-Landscape~ipad.png */,
 				37B9E48C16C0B5D1005ABDC4 /* fps_images.png */,
@@ -895,6 +909,9 @@
 				37B9E49D16C0B5D1005ABDC4 /* Icon@2x.png in Resources */,
 				37B9E4A016C0B5D1005ABDC4 /* iTunesArtwork in Resources */,
 				37B9E5DE16C0B5D3005ABDC4 /* ChangeLog in Resources */,
+				37B9E61116C0C11A005ABDC4 /* gv01_default.plist in Resources */,
+				37B9E61216C0C11A005ABDC4 /* gv01_default.png in Resources */,
+				37B9E61716C0E25C005ABDC4 /* gTexture.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1024,9 @@
 				37B9E5F816C0B5D4005ABDC4 /* vec4.c in Sources */,
 				37B9E5FD16C0B5D4005ABDC4 /* main.m in Sources */,
 				37B9E60016C0B5D4005ABDC4 /* AppDelegate.m in Sources */,
-				37B9E60316C0B5D4005ABDC4 /* HelloWorldLayer.m in Sources */,
 				37B9E60616C0B5D4005ABDC4 /* IntroLayer.m in Sources */,
+				37B9E60E16C0B62B005ABDC4 /* GameTouch.m in Sources */,
+				37B9E61516C0C168005ABDC4 /* MyGV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
