@@ -133,6 +133,7 @@
 		37A9784516BFBF59008798FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A9784416BFBF59008798FF /* AppDelegate.m */; };
 		37A9784816BFBF59008798FF /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A9784716BFBF59008798FF /* HelloWorldLayer.m */; };
 		37A9784B16BFBF59008798FF /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A9784A16BFBF59008798FF /* IntroLayer.m */; };
+		37A9785316BFC396008798FF /* GameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A9785216BFC396008798FF /* GameMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +399,8 @@
 		37A9784716BFBF59008798FF /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		37A9784916BFBF59008798FF /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		37A9784A16BFBF59008798FF /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		37A9785116BFC396008798FF /* GameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMenu.h; sourceTree = "<group>"; };
+		37A9785216BFC396008798FF /* GameMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +465,8 @@
 				37A9784716BFBF59008798FF /* HelloWorldLayer.m */,
 				37A9784916BFBF59008798FF /* IntroLayer.h */,
 				37A9784A16BFBF59008798FF /* IntroLayer.m */,
+				37A9785116BFC396008798FF /* GameMenu.h */,
+				37A9785216BFC396008798FF /* GameMenu.m */,
 				37A976CC16BFBF56008798FF /* Resources */,
 				37A976E616BFBF56008798FF /* libs */,
 				37A9783F16BFBF59008798FF /* Supporting Files */,
@@ -1009,6 +1014,7 @@
 				37A9784516BFBF59008798FF /* AppDelegate.m in Sources */,
 				37A9784816BFBF59008798FF /* HelloWorldLayer.m in Sources */,
 				37A9784B16BFBF59008798FF /* IntroLayer.m in Sources */,
+				37A9785316BFC396008798FF /* GameMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
