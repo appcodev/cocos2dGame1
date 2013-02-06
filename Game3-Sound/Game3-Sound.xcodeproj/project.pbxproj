@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3763EB9016C26BD20091EC5A /* button-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763EB8D16C26BD20091EC5A /* button-1.png */; };
+		3763EB9116C26BD20091EC5A /* button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763EB8E16C26BD20091EC5A /* button-2.png */; };
+		3763EB9216C26BD20091EC5A /* button-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3763EB8F16C26BD20091EC5A /* button-5.png */; };
 		37711AAA16C24B3700563495 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37711AA916C24B3700563495 /* QuartzCore.framework */; };
 		37711AAC16C24B3700563495 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37711AAB16C24B3700563495 /* OpenGLES.framework */; };
 		37711AAE16C24B3700563495 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37711AAD16C24B3700563495 /* OpenAL.framework */; };
@@ -131,11 +134,28 @@
 		37711C2D16C24B3B00563495 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 37711C2C16C24B3B00563495 /* vec4.c */; };
 		37711C3216C24B3B00563495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C3116C24B3B00563495 /* main.m */; };
 		37711C3516C24B3B00563495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C3416C24B3B00563495 /* AppDelegate.m */; };
-		37711C3816C24B3B00563495 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C3716C24B3B00563495 /* HelloWorldLayer.m */; };
 		37711C3B16C24B3B00563495 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C3A16C24B3B00563495 /* IntroLayer.m */; };
+		37711C4316C2502800563495 /* sn-sprite_default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37711C4116C2502800563495 /* sn-sprite_default.plist */; };
+		37711C4416C2502800563495 /* sn-sprite_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37711C4216C2502800563495 /* sn-sprite_default.png */; };
+		37711C4716C2505700563495 /* TestSoundScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C4616C2505700563495 /* TestSoundScene.m */; };
+		37711C4A16C2520F00563495 /* Sonic.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711C4916C2520F00563495 /* Sonic.m */; };
+		37711C4C16C252EE00563495 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37711C4B16C252EE00563495 /* bg1.jpg */; };
+		37D98A3F16C26C1400F3485A /* button-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A3B16C26C1400F3485A /* button-3.png */; };
+		37D98A4016C26C1400F3485A /* button-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A3C16C26C1400F3485A /* button-4.png */; };
+		37D98A4116C26C1400F3485A /* button-bg-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A3D16C26C1400F3485A /* button-bg-1.png */; };
+		37D98A4216C26C1400F3485A /* button-bg-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A3E16C26C1400F3485A /* button-bg-2.png */; };
+		37D98A4516C287B600F3485A /* bgSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4416C287B600F3485A /* bgSound1.mp3 */; };
+		37D98A4B16C28CE700F3485A /* fx0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4616C28CE700F3485A /* fx0.caf */; };
+		37D98A4C16C28CE700F3485A /* fx1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4716C28CE700F3485A /* fx1.caf */; };
+		37D98A4D16C28CE700F3485A /* fx2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4816C28CE700F3485A /* fx2.caf */; };
+		37D98A4E16C28CE700F3485A /* fx3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4916C28CE700F3485A /* fx3.caf */; };
+		37D98A4F16C28CE700F3485A /* fx4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37D98A4A16C28CE700F3485A /* fx4.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3763EB8D16C26BD20091EC5A /* button-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-1.png"; sourceTree = "<group>"; };
+		3763EB8E16C26BD20091EC5A /* button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-2.png"; sourceTree = "<group>"; };
+		3763EB8F16C26BD20091EC5A /* button-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-5.png"; sourceTree = "<group>"; };
 		37711AA516C24B3700563495 /* Game3-Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game3-Sound.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37711AA916C24B3700563495 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		37711AAB16C24B3700563495 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -394,10 +414,25 @@
 		37711C3116C24B3B00563495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37711C3316C24B3B00563495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37711C3416C24B3B00563495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37711C3616C24B3B00563495 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		37711C3716C24B3B00563495 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		37711C3916C24B3B00563495 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		37711C3A16C24B3B00563495 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		37711C4116C2502800563495 /* sn-sprite_default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "sn-sprite_default.plist"; sourceTree = "<group>"; };
+		37711C4216C2502800563495 /* sn-sprite_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sn-sprite_default.png"; sourceTree = "<group>"; };
+		37711C4516C2505700563495 /* TestSoundScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSoundScene.h; sourceTree = "<group>"; };
+		37711C4616C2505700563495 /* TestSoundScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSoundScene.m; sourceTree = "<group>"; };
+		37711C4816C2520F00563495 /* Sonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sonic.h; sourceTree = "<group>"; };
+		37711C4916C2520F00563495 /* Sonic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sonic.m; sourceTree = "<group>"; };
+		37711C4B16C252EE00563495 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		37D98A3B16C26C1400F3485A /* button-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-3.png"; sourceTree = "<group>"; };
+		37D98A3C16C26C1400F3485A /* button-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-4.png"; sourceTree = "<group>"; };
+		37D98A3D16C26C1400F3485A /* button-bg-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg-1.png"; sourceTree = "<group>"; };
+		37D98A3E16C26C1400F3485A /* button-bg-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-bg-2.png"; sourceTree = "<group>"; };
+		37D98A4416C287B600F3485A /* bgSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgSound1.mp3; sourceTree = "<group>"; };
+		37D98A4616C28CE700F3485A /* fx0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fx0.caf; sourceTree = "<group>"; };
+		37D98A4716C28CE700F3485A /* fx1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fx1.caf; sourceTree = "<group>"; };
+		37D98A4816C28CE700F3485A /* fx2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fx2.caf; sourceTree = "<group>"; };
+		37D98A4916C28CE700F3485A /* fx3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fx3.caf; sourceTree = "<group>"; };
+		37D98A4A16C28CE700F3485A /* fx4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fx4.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +493,12 @@
 			children = (
 				37711C3316C24B3B00563495 /* AppDelegate.h */,
 				37711C3416C24B3B00563495 /* AppDelegate.m */,
-				37711C3616C24B3B00563495 /* HelloWorldLayer.h */,
-				37711C3716C24B3B00563495 /* HelloWorldLayer.m */,
 				37711C3916C24B3B00563495 /* IntroLayer.h */,
 				37711C3A16C24B3B00563495 /* IntroLayer.m */,
+				37711C4516C2505700563495 /* TestSoundScene.h */,
+				37711C4616C2505700563495 /* TestSoundScene.m */,
+				37711C4816C2520F00563495 /* Sonic.h */,
+				37711C4916C2520F00563495 /* Sonic.m */,
 				37711ABC16C24B3700563495 /* Resources */,
 				37711AD616C24B3700563495 /* libs */,
 				37711C2F16C24B3B00563495 /* Supporting Files */,
@@ -472,6 +509,22 @@
 		37711ABC16C24B3700563495 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37D98A4616C28CE700F3485A /* fx0.caf */,
+				37D98A4716C28CE700F3485A /* fx1.caf */,
+				37D98A4816C28CE700F3485A /* fx2.caf */,
+				37D98A4916C28CE700F3485A /* fx3.caf */,
+				37D98A4A16C28CE700F3485A /* fx4.caf */,
+				37D98A4416C287B600F3485A /* bgSound1.mp3 */,
+				37D98A3B16C26C1400F3485A /* button-3.png */,
+				37D98A3C16C26C1400F3485A /* button-4.png */,
+				37D98A3D16C26C1400F3485A /* button-bg-1.png */,
+				37D98A3E16C26C1400F3485A /* button-bg-2.png */,
+				3763EB8D16C26BD20091EC5A /* button-1.png */,
+				3763EB8E16C26BD20091EC5A /* button-2.png */,
+				3763EB8F16C26BD20091EC5A /* button-5.png */,
+				37711C4B16C252EE00563495 /* bg1.jpg */,
+				37711C4116C2502800563495 /* sn-sprite_default.plist */,
+				37711C4216C2502800563495 /* sn-sprite_default.png */,
 				37711ABD16C24B3700563495 /* Default.png */,
 				37711ABF16C24B3700563495 /* Default-Landscape~ipad.png */,
 				37711AC116C24B3700563495 /* fps_images.png */,
@@ -895,6 +948,22 @@
 				37711AD216C24B3700563495 /* Icon@2x.png in Resources */,
 				37711AD516C24B3700563495 /* iTunesArtwork in Resources */,
 				37711C1316C24B3B00563495 /* ChangeLog in Resources */,
+				37711C4316C2502800563495 /* sn-sprite_default.plist in Resources */,
+				37711C4416C2502800563495 /* sn-sprite_default.png in Resources */,
+				37711C4C16C252EE00563495 /* bg1.jpg in Resources */,
+				3763EB9016C26BD20091EC5A /* button-1.png in Resources */,
+				3763EB9116C26BD20091EC5A /* button-2.png in Resources */,
+				3763EB9216C26BD20091EC5A /* button-5.png in Resources */,
+				37D98A3F16C26C1400F3485A /* button-3.png in Resources */,
+				37D98A4016C26C1400F3485A /* button-4.png in Resources */,
+				37D98A4116C26C1400F3485A /* button-bg-1.png in Resources */,
+				37D98A4216C26C1400F3485A /* button-bg-2.png in Resources */,
+				37D98A4516C287B600F3485A /* bgSound1.mp3 in Resources */,
+				37D98A4B16C28CE700F3485A /* fx0.caf in Resources */,
+				37D98A4C16C28CE700F3485A /* fx1.caf in Resources */,
+				37D98A4D16C28CE700F3485A /* fx2.caf in Resources */,
+				37D98A4E16C28CE700F3485A /* fx3.caf in Resources */,
+				37D98A4F16C28CE700F3485A /* fx4.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1076,9 @@
 				37711C2D16C24B3B00563495 /* vec4.c in Sources */,
 				37711C3216C24B3B00563495 /* main.m in Sources */,
 				37711C3516C24B3B00563495 /* AppDelegate.m in Sources */,
-				37711C3816C24B3B00563495 /* HelloWorldLayer.m in Sources */,
 				37711C3B16C24B3B00563495 /* IntroLayer.m in Sources */,
+				37711C4716C2505700563495 /* TestSoundScene.m in Sources */,
+				37711C4A16C2520F00563495 /* Sonic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1182,7 @@
 				37711C4016C24B3B00563495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
