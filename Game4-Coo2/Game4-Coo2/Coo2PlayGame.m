@@ -57,11 +57,6 @@
         //create UI : Text Button
         [self createUI];
         
-        //generate tile
-        [self generateTiles];
-        
-        //create tile
-        [self createTiles];
     
         [self newGame];
         
@@ -119,7 +114,7 @@
 
         //menu
         CCMenu *menu = [CCMenu node];
-        NSArray *menuName = @[@"replay-button.png",@"home-button.png"];
+        NSArray *menuName = @[@"home-button.png"];//@[@"replay-button.png",@"home-button.png"];
         for(int i=0;i<menuName.count;i++){
             CCMenuItemImage *menuItem = [CCMenuItemImage itemWithNormalImage:menuName[i]
                                                                selectedImage:menuName[i]
@@ -131,7 +126,7 @@
         }
 
         [menu alignItemsHorizontallyWithPadding:50];
-        [menu setPosition:ccp(winSize.width/2+200, winSize.height/2+320)];
+        [menu setPosition:ccp(winSize.width/2+350, winSize.height/2+320)];
         [self addChild:menu];
 }
 
@@ -240,6 +235,37 @@
     [self updateUI];
     
     [self showDisplayText:gameState];
+    
+    //generate tile
+    [self generateTiles];
+    
+    //create tile
+    [self createTiles];
+    
+}
+
+-(void)nextGameLevel{
+    
+    //next stage
+    game    += 1;
+    time    += 20;
+    score   += game*100;
+    countOpenTile = 0;
+    
+    gameState = GAME_STATE_NEW_GAME;
+    threadRunning = NO;
+    previousTile = nil;
+    
+    [self updateUI];
+    
+    [self showDisplayText:gameState];
+    
+    //generate tile
+    [self generateTiles];
+    
+    //create tile
+    [self createTiles];
+    
 }
 
 -(void)gameLoop:(ccTime)times{
@@ -286,11 +312,8 @@
 
 -(void)onMenuClicked:(CCMenuItemImage*)sender{
     switch (sender.tag) {
+        
         case 0:{
-            
-            break;
-        }
-        case 1:{
             [[SimpleAudioEngine sharedEngine] playEffect:SOUND_BUTTON];
             [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
             CCDirector *dir = [CCDirector sharedDirector];
@@ -335,6 +358,8 @@
             //check win
             if([self isWin]){
                 gameState = GAME_STATE_WIN;
+                //next game
+                [self scheduleOnce:@selector(nextGameLevel) delay:2];
             }
             
         }else{
