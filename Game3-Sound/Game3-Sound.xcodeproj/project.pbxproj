@@ -911,7 +911,9 @@
 		37711A9C16C24B3700563495 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = OZ;
 				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Onzondev Innovation co.,ltd.";
 			};
 			buildConfigurationList = 37711A9F16C24B3700563495 /* Build configuration list for PBXProject "Game3-Sound" */;
 			compatibilityVersion = "Xcode 3.2";

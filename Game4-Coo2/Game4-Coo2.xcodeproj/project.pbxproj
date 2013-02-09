@@ -919,6 +919,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Onzondev Innovation co.,ltd.";
 			};
 			buildConfigurationList = 37DB91D316C3936A00FC06C5 /* Build configuration list for PBXProject "Game4-Coo2" */;
 			compatibilityVersion = "Xcode 3.2";
